@@ -57,9 +57,9 @@ userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 headers = {"User-Agent": userAgent}
 
 if firstCrawl:
-    maxCount = 10
+    maxCount = 25
 else:
-    maxCount = 10
+    maxCount = 200
 
 try:
     for link in unsearchedLinks:
